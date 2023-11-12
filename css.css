@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white; /*like, text color. god that pisses me off, just rename it to text-color. if anything was just color, it'd be the background. someone call css4 already, damn*/
+  scroll-behavior: smooth;
+}
+
+body * {
+  position: absolute;
+  scroll-behavior: smooth;
+}
+
+.testspan {
+  filter: drop-shadow(8px, 8px, 8px, black);
+  z-index: 10;
+  position: relative;
+  margin-top: 300px;
+}
+
+#pligsplattin {
+  width: 20px;
+  height: 40px;
+  background-image: url('idle.png');
+  background-color: blue;
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+  left: 0px;
+  top: 0px;
+}
+#pligsplattincamera {
+  height: 100vh;
+  width: 100vw;
+  left: -50vw;
+  top: -50vh;
+}
+
+.floor {
+  background-color: white;
+}
+
+.wall {
+  background-color:rgba(0, 0, 255, .4);
+}
+.ceiling {
+  background-color:rgba(224, 135, 52, 0.4);
+}
+
+#canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
